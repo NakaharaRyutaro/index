@@ -1,168 +1,90 @@
-@charset "UTF-8";
-body {
-	margin: 0;
-	padding: 0;
-	font-family: "游ゴシック Medium", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
-	line-height: 1.6;
-    font-size: 16px;
-}
-#header-container {
-  margin: 0 auto;
-  width: 694px;
-}
-header {
-	background-color: #214555;
-}
-#head-inner {
-    padding: 25px 0;
-}
-h1 {
-	font-size: 26px;
-	font-weight: bold;
-	padding: 10px 0 0 0;
-	margin: 0;
-	color: #f3e6d2;
-}
-h1 a {
-	font-weight: bold;
-	color: #f3e6d2;
-	text-decoration: none;
-}
-h1 a:hover {
-	color: #e8f3f9;
-	text-decoration: none;
-}
-.description {
-	line-height: 1.2;
-	color: #f3f2eb;
-	margin: 0.5em 0 1em 0;
-}
-h2 {
-	font-size: 22px;
-	margin: 0;
-	padding: 4px 0;
-	border-bottom: 1px solid #999;
-}
-#content-wrapper {margin: 0 auto;
-    width: 694px;}
-main {
-	color: #333;
-}
-#inner {
-	padding: 20px 0 0 0;
-}
-ul {
-	margin: 0 0 0 1em;
-	padding: 0;
-}
-li {
-	list-style: disc;
-}
-p {
-	margin: 1em 0;
-}
-img {
-	max-width: 100%;
-	height: auto;
-	border: 0;
-}
-hr {
-	border-width: 1px 0 0 0;
-	border-style: solid;
-	border-color: #ccc;
-	height: 1px;
-}
-a {
-	font-weight: normal;
-}
-aside {
-
-}
-#middle-inner {
-	padding: 20px 0 20px 0;
-}
-.side-title {
-	padding: 7px 16px 7px 16px;
-	background-color: #f1f1f1;
-	color: #333;
-	font-weight: bold;
-	border: 1px solid #ccc;
-	margin-bottom: 10px;
-	border-radius: 5px;
-}
-.side {
-	margin: 0 0 10px 0;
-	padding: 2px 8px 8px 7px;
-	background-color: #fcfcfc;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-	border-radius: 5px;
-}
-.side ul {
-	margin: 0 0 0 10px;
-	padding: 0;
-}
-.side li {
-	list-style: none;
-	margin-bottom: 0.5em;
-}
-.side li a {
-	text-decoration: none;
-	color: #214555;
-}
-.side li a:hover {
-	text-decoration: underline;
-}
-footer {
-	font-size: 15px;
-	height: 100px;
-	clear: both;
-	text-align: center;
-}
-blockquote {
-	border: 1px solid #ccc;
-	padding: 5px;
-	margin: 10px;
-}
-@media screen and (max-width: 767px) {
-#header-container {
-    margin: 0;
-	width: 100%;
-}
-header {
-
-}
-#head-inner {
-    padding: 25px 10px;
-	background-color: #214555;
-}
-.description {
-}
-#content-wrapper {
-margin: 0;
-	width: 100%;}
-main {
-width: 100%;
-	color: #333;
-}
-#inner {
-	padding: 20px 10px 0 10px;
-}
-aside {
-width: 100%;
-}
-#middle-inner {
-	padding: 10px 10px 20px 10px;
-}
-h1 {
-	font-size: 20px;
-}
-h2 {
-	font-size: 18px;
-}
-h3 {
-	font-size: 16px;
-}
-h4 {
-	font-size: 14px;
-}
-}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progate</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-left">
+        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
+      </div>
+      <span class="fa fa-bars menu-icon"></span>
+      <div class="header-right">
+        <a href="#">レッスン</a>
+        <a href="#">新規登録</a>
+        <a href="#" class="login">ログイン</a>
+      </div>
+    </div>
+  </header>
+  <div class="top-wrapper">
+    <div class="container">
+      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
+      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
+      <div class="btn-wrapper">
+        <a href="#" class="btn signup">新規登録はこちら</a>
+        <p>or</p>
+        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
+        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
+      </div>
+    </div>
+  </div>
+  <div class="lesson-wrapper">
+    <div class="container">
+      <div class="heading">
+        <h2>Learn Where to Get Started!</h2>
+      </div>
+      <div class="lessons">
+        <div class="lesson">
+          <div class="lesson-icon">
+            <img src="https://prog-8.com/images/html/advanced/html.png">
+            <p>HTML & CSS</p>
+          </div>
+          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
+        </div>
+        <div class="lesson">
+          <div class="lesson-icon">
+            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
+            <p>jQuery</p>
+          </div>
+          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
+        </div>
+        <div class="lesson">
+          <div class="lesson-icon">
+            <img src="https://prog-8.com/images/html/advanced/ruby.png">
+            <p>Ruby</p>
+          </div>
+          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
+        </div>
+        <div class="lesson">
+          <div class="lesson-icon">
+            <img src="https://prog-8.com/images/html/advanced/php.png">
+            <p>PHP</p>
+          </div>
+          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="message-wrapper">
+    <div class="container">
+      <div class="heading">
+        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
+        <h3>Let's learn to code, learn to be creative!</h3>
+      </div>
+      <span class="btn message">さっそく開発する</span>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
+      <p>Learn to Code, Learn to be Creative.</p>
+    </div>
+  </footer>
+</body>
+</html>
